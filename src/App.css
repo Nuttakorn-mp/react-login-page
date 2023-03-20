@@ -32,7 +32,129 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+/* ----------------------- */
+.centerAll {
+  text-align: center;
+}
+
+.centerAll>ul {
+  display: inline-block;
+  text-align: left;
+  /* list-style: inside; */
+}
+
+.inline-button {
+  display: inline-block;
+  position: relative;
+  padding-left: 10px;
+}
+/* ----------------------- */
+
+.divcenter {
+  text-align: center;
+}
+
+.background-box {
+  width: 410px;
+  height: 500px;
+  margin: auto;
+
+  border-radius: 4px;
+  box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  padding-top: 35px;
+}
+
+.input-email {
+  box-sizing: border-box;
+  width: 326px;
+  height: 43px;
+  margin-top: 15px;
+
+  background: #F3F5F9;
+  border: 1px solid #E9E9E9;
+}
+
+.input-pass {
+  box-sizing: border-box;
+  width: 326px;
+  height: 43px;
+  margin-top: 28px;
+
+  background: #F3F5F9;
+  border: 1px solid #E9E9E9;
+}
+
+.textLogin{
+  color: white;
+}
+
+.buttonLogin {
+  box-sizing: border-box;
+  width: 326px;
+  height: 43px;
+  margin-top: 65px;
+
+  background: #489034;
+  border: 1px solid #E9E9E9;
+}
+
+.buttonForgot{
+  margin-top: 30px;
+}
+
+.divider {
+	width:320px;
+	text-align:center;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.divider hr {
+	margin-left:auto;
+	margin-right:auto;
+	width:40%;
+
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float:right;
+}
+
+.hrTextSize{
+  font-size: 12px;
+  top: -5px;
+  position: relative;
+}
+
+.textButtonCreate{
+  position: relative;
+  top: -5px;
+}
+.buttonCreate {
+
+  width: 328px;
+  height: 41px;
+  margin-top: 10px;
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.contract-operation{
+  position: relative;
+  top: 10px;
+  font-size: 12px;
 }
